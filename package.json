@@ -1,0 +1,29 @@
+{
+  "name": "bode",
+  "version": "1.0.0",
+  "description": "babel-node replacement using babel-register, but transparently (argument untouched)",
+  "homepage": "http://github.com/CrabDude/bode",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CrabDude/bode.git"
+  },
+  "bugs": {
+    "url": "http://github.com/CrabDude/bode/issues"
+  },
+  "author": "Adam Crabtree <dude@noderiety.com> (http://noderiety.com)",
+  "main": "bin/index",
+  "bin": {
+    "bode": "bin/index.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.html"
+    }
+  ],
+  "keywords": [
+    "babel",
+    "babel-register",
+    "babel-node"
+  ]
+}
