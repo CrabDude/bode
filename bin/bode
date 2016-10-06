@@ -1,12 +1,1 @@
-#!/usr/bin/env node
-/* eslint import/no-dynamic-require: 0 */
-
-require('babel-register')
-const path = require('path')
-
-const arg0 = process.argv[0]
-const cmdIndex = arg0.indexOf('/bin/node') === arg0.length - 9 ? 1 : 0
-process.argv.splice(cmdIndex, 1)
-const cmdPath = path.resolve(__dirname, process.argv[1])
-
-require(cmdPath)
+exec /usr/bin/env node -r babel-register "$@"

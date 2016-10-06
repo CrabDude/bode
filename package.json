@@ -11,9 +11,9 @@
     "url": "http://github.com/CrabDude/bode/issues"
   },
   "author": "Adam Crabtree <dude@noderiety.com> (http://noderiety.com)",
-  "main": "bin/index",
+  "main": "bin/bode",
   "bin": {
-    "bode": "bin/index.js"
+    "bode": "bin/bode"
   },
   "licenses": [
     {
