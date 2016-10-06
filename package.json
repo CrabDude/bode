@@ -1,6 +1,6 @@
 {
   "name": "bode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "babel-node replacement using babel-register, but transparently (argument untouched)",
   "homepage": "http://github.com/CrabDude/bode",
   "repository": {
